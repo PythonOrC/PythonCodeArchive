@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>process_img</class>
+ <widget class="QMainWindow" name="process_img">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>799</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>滤镜处理</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QPushButton" name="pb_file">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>选择图片文件</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cb_filter_list">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <item>
+        <property name="text">
+         <string>模糊滤镜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>轮廓滤镜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>浮雕滤镜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>锐化滤镜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>平滑滤镜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>边缘增强滤镜</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pb_process">
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>开始处理</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="lb_input_img">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>30</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>处理前</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="lb_output_img">
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>30</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>处理后</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

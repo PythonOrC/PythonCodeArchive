@@ -1,0 +1,17 @@
+{
+    "Do": [
+        "test",
+        "homework"
+    ],
+    "Plan": [
+        "read",
+        "gym"
+    ],
+    "Delegate": [
+        "movie"
+    ],
+    "Eliminate": [
+        "game",
+        "shopping"
+    ]
+}

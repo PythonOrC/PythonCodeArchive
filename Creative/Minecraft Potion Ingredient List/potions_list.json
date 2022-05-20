@@ -1,0 +1,44 @@
+{
+  "swiftness": ["Nether Wart + Sugar", "Awkward Potion + Sugar\n"],
+  "slowness": [
+    "Nether Wart + Sugar + Fermented Spider Eye\n",
+    "Nether Wart + Rabbit's Foot + Fermented Spider Eye\n",
+    "Potion of Swiftness + Fermented Spider Eye\n",
+    "Potion of Leaping + Fermented Spider Eye\n"
+  ],
+  "strength": ["Nether Wart + Blaze Powder\n"],
+  "weakness": ["Fermented Spider Eye\n"],
+  "healing": ["Nether Wart + Glistering Melon\n"],
+  "harming": [
+    "Nether Wart + Glistering Melon + Fermented Spider Eye\n",
+    "Nether Wart + Spider Eye + Fermented Spider Eye\n",
+    "Potion of Healing + Fermented Spider Eye\n",
+    "potion of Poison + Fermented Spider Eye\n"
+  ],
+  "regeneration": ["Nether Wart + Ghast Tear\n"],
+  "fire resistance": ["Nether Wart + Magma Cream\n"],
+  "water breathing": ["Nether Wart + Pufferfish\n"],
+  "poison": ["Nether Wart + Spider Eye\n"],
+  "night vision": ["Nether Wart + Golden Carrot\n"],
+  "invisibility": [
+    "Nether Wart + Golden Carrot + Fermented Spider Eye\n",
+    "Potion of Night Vision + Fermented Spider Eye\n"
+  ],
+  "leaping ": ["Nether Wart + Rabbit's Foot\n"],
+  "slow falling": ["Nether Wart + Phantom Membrane\n"],
+  "turtle master": ["Nether Wart + Turtle Shell\n"],
+  "splash potion": ["Gunpowder\n"],
+  "lingering potion": ["Gunpowder + Dragon's breath\n"],
+  "mundane potion": [
+    "Spider Eye\n",
+    "Ghast Tear\n",
+    "Rabbit's Foot\n",
+    "Blaze Powder\n",
+    "Glistering Melon\n",
+    "Sugar\n",
+    "Magma Cream\n",
+    "Redstone\n"
+  ],
+  "thick potion": ["Glowstone\n"],
+  "awkward potion": ["Nether Wart\n"]
+}

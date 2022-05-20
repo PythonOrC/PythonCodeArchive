@@ -1,0 +1,97 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'E:/Personal/Python/program/Qt/Cards/cards.ui',
+# licensing of 'E:/Personal/Python/program/Qt/Cards/cards.ui' applies.
+#
+# Created: Sat Oct 12 19:02:47 2019
+#      by: pyside2-uic  running on PySide2 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+from PySide2 import QtCore, QtGui, QtWidgets
+
+class Ui_Cards(object):
+    def setupUi(self, Cards):
+        Cards.setObjectName("Cards")
+        Cards.resize(800, 600)
+        self.centralwidget = QtWidgets.QWidget(Cards)
+        self.centralwidget.setObjectName("centralwidget")
+        self.gridLayoutWidget = QtWidgets.QWidget(self.centralwidget)
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(10, 111, 781, 481))
+        self.gridLayoutWidget.setObjectName("gridLayoutWidget")
+        self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
+        self.gridLayout.setContentsMargins(0, 0, 0, 0)
+        self.gridLayout.setObjectName("gridLayout")
+        self.pb09 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb09.setObjectName("pb09")
+        self.pb_img = QtWidgets.QButtonGroup(Cards)
+        self.pb_img.setObjectName("pb_img")
+        self.pb_img.addButton(self.pb09)
+        self.gridLayout.addWidget(self.pb09, 2, 0, 1, 1)
+        self.pb05 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb05.setObjectName("pb05")
+        self.pb_img.addButton(self.pb05)
+        self.gridLayout.addWidget(self.pb05, 1, 0, 1, 1)
+        self.pb06 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb06.setObjectName("pb06")
+        self.pb_img.addButton(self.pb06)
+        self.gridLayout.addWidget(self.pb06, 1, 1, 1, 1)
+        self.pb11 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb11.setObjectName("pb11")
+        self.pb_img.addButton(self.pb11)
+        self.gridLayout.addWidget(self.pb11, 2, 2, 1, 1)
+        self.pb01 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb01.setObjectName("pb01")
+        self.pb_img.addButton(self.pb01)
+        self.gridLayout.addWidget(self.pb01, 0, 0, 1, 1)
+        self.pb04 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb04.setObjectName("pb04")
+        self.pb_img.addButton(self.pb04)
+        self.gridLayout.addWidget(self.pb04, 0, 3, 1, 1)
+        self.pb03 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb03.setObjectName("pb03")
+        self.pb_img.addButton(self.pb03)
+        self.gridLayout.addWidget(self.pb03, 0, 2, 1, 1)
+        self.pb02 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb02.setObjectName("pb02")
+        self.pb_img.addButton(self.pb02)
+        self.gridLayout.addWidget(self.pb02, 0, 1, 1, 1)
+        self.pb07 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb07.setObjectName("pb07")
+        self.pb_img.addButton(self.pb07)
+        self.gridLayout.addWidget(self.pb07, 1, 2, 1, 1)
+        self.pb10 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb10.setObjectName("pb10")
+        self.pb_img.addButton(self.pb10)
+        self.gridLayout.addWidget(self.pb10, 2, 1, 1, 1)
+        self.pb12 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb12.setObjectName("pb12")
+        self.pb_img.addButton(self.pb12)
+        self.gridLayout.addWidget(self.pb12, 2, 3, 1, 1)
+        self.pb08 = QtWidgets.QPushButton(self.gridLayoutWidget)
+        self.pb08.setObjectName("pb08")
+        self.pb_img.addButton(self.pb08)
+        self.gridLayout.addWidget(self.pb08, 1, 3, 1, 1)
+        self.lcd_time = QtWidgets.QLCDNumber(self.centralwidget)
+        self.lcd_time.setGeometry(QtCore.QRect(270, 10, 271, 91))
+        self.lcd_time.setObjectName("lcd_time")
+        Cards.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(Cards)
+        QtCore.QMetaObject.connectSlotsByName(Cards)
+
+    def retranslateUi(self, Cards):
+        Cards.setWindowTitle(QtWidgets.QApplication.translate("Cards", "记忆翻牌", None, -1))
+        self.pb09.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb05.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb06.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb11.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb01.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb04.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb03.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb02.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb07.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb10.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb12.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+        self.pb08.setText(QtWidgets.QApplication.translate("Cards", "PushButton", None, -1))
+

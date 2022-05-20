@@ -1,0 +1,12 @@
+{
+  "ID": "69c4bab6e119473f9b927ad608f61f01",
+  "ActionKeyword": "open",
+  "Name": "Open",
+  "Description": "Open custom apps",
+  "Author": "Ethan",
+  "Version": "1.0.0",
+  "Language": "python",
+  "Website": "http://www.driedapricots.xyz",
+  "IcoPath": "Images\\open.png",
+  "ExecuteFileName": "app.py"
+}

@@ -1,0 +1,72 @@
+<CoordinateSystem> { Y-Up }
+
+<Comment> {
+  "maya2egg2019 -a chan -o /c/Users/Liuli/Desktop/sun_car/car_start.egg /c/Users/Liuli/Desktop/sun_car/car_start.mb"
+}
+<Table> {
+  <Bundle> car_start {
+    <Table> "<skeleton>" {
+      <Table> Bone007 {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 30 }
+          <Char*> order { srpht }
+          <S$Anim> h { <V> { -90.1003123824472 } }
+          <S$Anim> p { <V> { -0.0264563943113579 } }
+          <S$Anim> r { <V> { 45.0391650152126 } }
+          <S$Anim> x { <V> { -96.807502746582 } }
+          <S$Anim> y { <V> { 29.8876113891602 } }
+          <S$Anim> z { <V> { 121.053398132324 } }
+        }
+        <Table> Bone008 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 30 }
+            <Char*> order { srpht }
+            <S$Anim> x { <V> { 30.0233993530273 } }
+          }
+        }
+      }
+      <Table> Bone005 {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 30 }
+          <Char*> order { srpht }
+          <S$Anim> h { <V> { -90.1002947269659 } }
+          <S$Anim> p { <V> { -0.0264467424856521 } }
+          <S$Anim> r { <V> { 45.0391674773112 } }
+          <S$Anim> x { <V> { -96.807502746582 } }
+          <S$Anim> y { <V> { 29.8876342773438 } }
+          <S$Anim> z { <V> { -84.2289886474609 } }
+        }
+        <Table> Bone006 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 30 }
+            <Char*> order { srpht }
+            <S$Anim> x { <V> { 30.0235481262207 } }
+          }
+        }
+      }
+      <Table> Bone001 {
+        <Xfm$Anim_S$> xform {
+          <Scalar> fps { 30 }
+          <Char*> order { srpht }
+          <S$Anim> h { <V> { -89.9999997731071 } }
+          <S$Anim> r { <V> { -179.787007376552 } }
+          <S$Anim> y {
+            <V> {
+              26.945 26.658 26.125 25.8379 26.125 26.658 26.945
+            }
+          }
+          <S$Anim> z { <V> { 40.4866828918457 } }
+        }
+        <Table> Bone002 {
+          <Xfm$Anim_S$> xform {
+            <Scalar> fps { 30 }
+            <Char*> order { srpht }
+            <S$Anim> x { <V> { 106.190093994141 } }
+          }
+        }
+      }
+    }
+    <Table> morph {
+    }
+  }
+}
